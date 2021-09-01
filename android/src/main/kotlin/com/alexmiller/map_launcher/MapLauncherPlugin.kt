@@ -40,10 +40,25 @@ class MapLauncherPlugin : FlutterPlugin, MethodCallHandler {
     }
 
     private val maps = listOf(
-            MapModel(MapType.google, "Google Maps", "com.google.android.apps.maps"),
-            MapModel(MapType.googleGo, "Google Maps Go", "com.google.android.apps.mapslite"),
-            MapModel(MapType.amap, "Amap", "com.autonavi.minimap"),
-            MapModel(MapType.baidu, "Baidu Maps", "com.baidu.BaiduMap"),
+//            MapModel(MapType.google, "Google Maps", "com.google.android.apps.maps"),
+//            MapModel(MapType.googleGo, "Google Maps Go", "com.google.android.apps.mapslite"),
+//            MapModel(MapType.amap, "Amap", "com.autonavi.minimap"),
+//            MapModel(MapType.baidu, "Baidu Maps", "com.baidu.BaiduMap"),
+//            MapModel(MapType.waze, "Waze", "com.waze"),
+//            MapModel(MapType.yandexNavi, "Yandex Navigator", "ru.yandex.yandexnavi"),
+//            MapModel(MapType.yandexMaps, "Yandex Maps", "ru.yandex.yandexmaps"),
+//            MapModel(MapType.citymapper, "Citymapper", "com.citymapper.app.release"),
+//            MapModel(MapType.mapswithme, "MAPS.ME", "com.mapswithme.maps.pro"),
+//            MapModel(MapType.osmand, "OsmAnd", "net.osmand"),
+//            MapModel(MapType.osmandplus, "OsmAnd+", "net.osmand.plus"),
+//            MapModel(MapType.doubleGis, "2GIS", "ru.dublgis.dgismobile"),
+//            MapModel(MapType.tencent, "Tencent (QQ Maps)", "com.tencent.map"),
+//            MapModel(MapType.here, "HERE WeGo", "com.here.app.maps")
+
+            MapModel(MapType.google, "谷歌地图", "com.google.android.apps.maps"),
+            MapModel(MapType.googleGo, "谷歌地图Go", "com.google.android.apps.mapslite"),
+            MapModel(MapType.amap, "高德地图", "com.autonavi.minimap"),
+            MapModel(MapType.baidu, "百度地图", "com.baidu.BaiduMap"),
             MapModel(MapType.waze, "Waze", "com.waze"),
             MapModel(MapType.yandexNavi, "Yandex Navigator", "ru.yandex.yandexnavi"),
             MapModel(MapType.yandexMaps, "Yandex Maps", "ru.yandex.yandexmaps"),
@@ -52,8 +67,9 @@ class MapLauncherPlugin : FlutterPlugin, MethodCallHandler {
             MapModel(MapType.osmand, "OsmAnd", "net.osmand"),
             MapModel(MapType.osmandplus, "OsmAnd+", "net.osmand.plus"),
             MapModel(MapType.doubleGis, "2GIS", "ru.dublgis.dgismobile"),
-            MapModel(MapType.tencent, "Tencent (QQ Maps)", "com.tencent.map"),
+            MapModel(MapType.tencent, "腾讯地图", "com.tencent.map"),
             MapModel(MapType.here, "HERE WeGo", "com.here.app.maps")
+
     )
 
     private fun getInstalledMaps(): List<MapModel> {

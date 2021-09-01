@@ -44,10 +44,24 @@ private class Map {
 }
 
 private let maps: [Map] = [
-    Map(mapName: "Apple Maps", mapType: MapType.apple, urlPrefix: ""),
-    Map(mapName: "Google Maps", mapType: MapType.google, urlPrefix: "comgooglemaps://"),
-    Map(mapName: "Amap", mapType: MapType.amap, urlPrefix: "iosamap://"),
-    Map(mapName: "Baidu Maps", mapType: MapType.baidu, urlPrefix: "baidumap://"),
+    //Map(mapName: "Apple Maps", mapType: MapType.apple, urlPrefix: ""),
+    //Map(mapName: "Google Maps", mapType: MapType.google, urlPrefix: "comgooglemaps://"),
+    //Map(mapName: "Amap", mapType: MapType.amap, urlPrefix: "iosamap://"),
+    //Map(mapName: "Baidu Maps", mapType: MapType.baidu, urlPrefix: "baidumap://"),
+    //Map(mapName: "Waze", mapType: MapType.waze, urlPrefix: "waze://"),
+    //Map(mapName: "Yandex Navigator", mapType: MapType.yandexNavi, urlPrefix: "yandexnavi://"),
+    //Map(mapName: "Yandex Maps", mapType: MapType.yandexMaps, urlPrefix: "yandexmaps://"),
+    //Map(mapName: "Citymapper", mapType: MapType.citymapper, urlPrefix: "citymapper://"),
+    //Map(mapName: "MAPS.ME", mapType: MapType.mapswithme, urlPrefix: "mapswithme://"),
+    //Map(mapName: "OsmAnd", mapType: MapType.osmand, urlPrefix: "osmandmaps://"),
+    //Map(mapName: "2GIS", mapType: MapType.doubleGis, urlPrefix: "dgis://"),
+    //Map(mapName: "Tencent (QQ Maps)", mapType: MapType.tencent, urlPrefix: "qqmap://"),
+    //Map(mapName: "HERE WeGo", mapType: MapType.here, urlPrefix: "here-location://")
+
+    Map(mapName: "Apple地图", mapType: MapType.apple, urlPrefix: ""),
+    Map(mapName: "谷歌地图", mapType: MapType.google, urlPrefix: "comgooglemaps://"),
+    Map(mapName: "高德地图", mapType: MapType.amap, urlPrefix: "iosamap://"),
+    Map(mapName: "百度地图", mapType: MapType.baidu, urlPrefix: "baidumap://"),
     Map(mapName: "Waze", mapType: MapType.waze, urlPrefix: "waze://"),
     Map(mapName: "Yandex Navigator", mapType: MapType.yandexNavi, urlPrefix: "yandexnavi://"),
     Map(mapName: "Yandex Maps", mapType: MapType.yandexMaps, urlPrefix: "yandexmaps://"),
@@ -55,7 +69,7 @@ private let maps: [Map] = [
     Map(mapName: "MAPS.ME", mapType: MapType.mapswithme, urlPrefix: "mapswithme://"),
     Map(mapName: "OsmAnd", mapType: MapType.osmand, urlPrefix: "osmandmaps://"),
     Map(mapName: "2GIS", mapType: MapType.doubleGis, urlPrefix: "dgis://"),
-    Map(mapName: "Tencent (QQ Maps)", mapType: MapType.tencent, urlPrefix: "qqmap://"),
+    Map(mapName: "腾讯地图", mapType: MapType.tencent, urlPrefix: "qqmap://"),
     Map(mapName: "HERE WeGo", mapType: MapType.here, urlPrefix: "here-location://")
 ]
 
